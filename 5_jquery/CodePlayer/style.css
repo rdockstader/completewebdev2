@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.title-container {
+    font-weight: bold;
+    font-size: 150%;
+    float: left;
+    padding: 5px;
+}
+
+.header-div {
+    height: 45px;
+    background-color: lightgray;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    overflow: auto;
+    min-width: 500px;
+}
+
+.header-container {
+    vertical-align: middle;
+    min-width: 250px;
+    width: 30%;
+    height: 28px;
+    margin: 0 auto;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: lightgrey;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.header-option {
+    float: left;
+    padding: 5px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px black solid;
+    background-color: aliceblue;
+    margin: 0 auto;
+    position: relative;
+    width: 25%;
+    font-family: 'Lato', sans-serif;
+    align-self: center;
+    height: inherit;
+}
+.header-option:hover {
+    background-color: darkgray !important;
+}
+
+.last {
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.player {
+    position: fixed;
+    top: 45px;
+    bottom: 0;
+    width: 25%;
+    overflow: hidden;
+    display: inline-block;
+    resize: none;
+}
+
+#html-button:hover {
+    background-color: darkgray;
+}
+
+#css-button {
+    
+}
+
+#js-button {
+    
+}
+
+#output-button {
+    
+}
+
+#html-player {
+    
+}
+
+#css-player {
+}

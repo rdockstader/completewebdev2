@@ -1,0 +1,63 @@
+<!doctype HTML>
+
+<head>
+	<title>Chapter Two</title> <!-- think of position as a margin-->
+	
+	<style>
+		#first-section {
+			color: blue;
+			background-color: #CEF6CE;
+			width:200px;
+			position:absolute;
+			top: 500px;
+			left: 500px; 
+			z-index: 2;
+			opacity: 0.5;
+
+
+		}
+		#second-section {
+			background-color: #8AB4F7;
+			width:200px;
+			height:5000px;
+			position:relative;
+			left: 10px;
+			top: -10px;
+			z-index: 1;
+
+		}
+		#third-section {
+			background-color: #1A873A;
+			width:200px;
+			position:fixed;
+			left: 10px;
+			top: -10px;
+			z-index: 1;
+
+		}
+
+	</style>
+
+</head>
+
+
+<body>
+	<div id="first-section">
+		<p> The quick brown fox jumped over the lazy dog </p>
+		<p> Wow, i love internal CSS! </p>
+	</div>
+	
+	<div id="second-section">
+		<p> This is some text </p>
+		
+		<h1> this is a header </h1>
+	</div>
+	
+	<div id="third-section">
+		<p> this paragraph is not fixed </p>
+	</div>
+
+	
+
+
+</body>

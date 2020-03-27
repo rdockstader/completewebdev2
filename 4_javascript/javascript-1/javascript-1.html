@@ -1,0 +1,37 @@
+<html>
+    <head>        
+        <title>Javascript</title>
+    </head>
+    <body>
+        <p><button onclick="alert('Hi!')" >Click me (inline)</button> <!-- inline javascript --> </p>
+        <p id="text"> Hello World!!</p>
+        <p><button id="textButton">Change Text</button></p> <!-- internal javascript button -->
+        
+        <p id="second-paragraph"> Javascript is ...</p>
+        <p><button id="second-button">Append Text</button></p>
+        
+        <p id="empty"></p>
+        <p><button id="empty-button">Show Text</button></p>
+        
+        <p id="more-text">This is some text</p>
+        <button id="style-text">Style Text</button>
+        
+        <script type="text/javascript">     
+            document.getElementById("textButton").onclick = function() {
+                document.getElementById("text").innerHTML = "Hello Ryan!!!";
+            };
+            document.getElementById("second-button").onclick = function() {
+                document.getElementById("second-paragraph").innerHTML = "I think " + document.getElementById("second-paragraph").innerHTML + " awesome!!!";
+            };
+            document.getElementById("empty-button").onclick = function() {
+                document.getElementById("empty").innerHTML = "You found me!";
+            };
+            document.getElementById("style-text").onclick = function() {
+                document.getElementById("more-text").style.color = "red";
+                document.getElementById("more-text").style.fontSize = "200%";
+                /*document.getElementById("more-text").style.display = "none";*/
+            }
+            
+        </script>
+    </body>
+</html>

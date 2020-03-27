@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+        <input type="text" id="text-input" placeholder="Text Input">
+        <button id="text-button">change the text</button>
+        <p id="text-output">This is some text</p>
+        <hr>
+        <!-- Arrays -->
+        <!-- Login -->
+        <p>What is the magic word?</p>
+        <p>
+            <input type="text" id="magic-word-input" placeholder="magic word goes here..."> 
+            <button id="magic-word-button">
+                submit
+            </button> 
+        </p>
+        
+        <script type="text/javascript">
+            document.getElementById("text-button").onclick = function() {
+                var textEntered = "";              
+                textEntered = document.getElementById("text-input").value;               
+                document.getElementById("text-output").innerHTML = textEntered;
+            }   
+            document.getElementById("magic-word-button").onclick = function() {
+                var magicWordEntered = document.getElementById("magic-word-input").value;
+                
+                var magicWord = "abracadabra";
+                
+                if(magicWordEntered == magicWord) {
+                    alert("You got it!");
+                } else {
+                    alert("NOPE.");
+                }
+            }
+            
+            
+            var myArray = new Array();
+            
+            myArray[0] = "pizza";
+            myArray[1] = "burgers";
+            myArray[2] = "chocolate";
+            myArray[3] = "burritos";
+            
+            myArray.splice(1, 1); /*position, amount*/
+            myArray.splice(1, 0, "Om Nom Nom") /*position, delete amounnt, add item */
+            
+            console.log(myArray);
+            
+            /*Logic statements*/
+            var x = 1;
+            
+            if (x == 1) {
+                
+            }
+            
+            
+            
+        </script> 
+    </body>
+</html>

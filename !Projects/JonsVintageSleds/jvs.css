@@ -1,0 +1,236 @@
+
+         /*font-family: 'Anton', sans-serif;
+font-family: 'Varela Round', sans-serif; */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+    background-color: grey;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: black;
+}
+#main-header {
+    height: 70px;
+    width: auto;
+    vertical-align: middle;
+    background-image: url(Images/header-background.jpg);
+    background-position: center;
+    position: inherit
+}
+#menu-bar {
+    height: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: auto;
+    background-color: lightgray;
+    text-align: center;
+    vertical-align: middle;
+}
+#main-page {
+    height: auto;
+    background-color: darkgrey;
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    vertical-align: middle;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+#main-product-page {
+    height: auto;
+    background-color: darkgrey;
+    width: 40%;
+    margin: auto;
+    text-align: left;
+    vertical-align: middle;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+#main-header-div {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    white-space: nowrap;
+}
+#menu-bar-div {
+    width: 55%;
+    height: 25px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+#main-header-text {
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 200%;
+    color:white;
+}
+.menu-option {
+    height: 25px;
+    padding: 0px 10px ;
+    border-right: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    margin:auto;
+}
+#end-option {
+    border-right: none;
+}
+#welcome-header {
+    font-size: 195%;
+}
+.main-page-header {
+    
+}
+.contact-input {
+    border-radius: 5px;
+}
+.contact-input-body {
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    line-height: 15px;
+    
+    font-family: 'Varela Round', sans-serif;
+}
+#submit-button {
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 5px;
+}
+.clear-float {
+    clear: both;
+}
+.page-footer {
+    position: 
+    bottom: 0;
+    right: 50%;
+    height: 20px;
+    widows: 100%;
+    text-align: center;
+    font-size: 60%;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+.product-div {
+    float: left;
+    align-content: center;
+    align-items: center;
+}
+
+.product-picture {
+    float: left;
+    height: 200px;
+    width: 200px;
+    align-content: center;
+    text-align: center;
+}
+
+.product-desc {
+    float: left;
+    height: 200px;
+    max-width: 500px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.product-image {
+    height: inherit;
+    align-content: center;
+    text-align: center;
+}
+
+.product-header {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.product-price {
+    margin-top: 0;
+    padding-top: 4px;
+    float: left;
+    vertical-align: middle;
+}
+
+.spacer-div {
+    height: 25px;
+}
+
+.product-text {
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 5px;
+    margin-top 5px;
+    padding-top: 0;
+}
+
+
+
+.ebay-link {   
+    float: left;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.ksl-link {
+    float: left;
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+.product-links {
+    vertical-align: middle;
+    text-align: center;
+    align-content: center;
+}
+
+.product-type {
+    margin-top: 7px;
+    padding-top: 0;
+    text-decoration: underline;
+}
+
+.quick-links-div {
+    text-align: center;
+    font-size: 70%;
+    margin-top: 5px;
+}
+
+.quick-link {
+    border-right: 1px solid black;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.quick-link-last {
+        padding-right: 7px;
+    padding-left: 7px;
+}
+
+.product-links-div {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    overflow: auto;
+}

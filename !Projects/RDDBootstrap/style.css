@@ -1,0 +1,80 @@
+body {
+    position: relative;
+    background-color: lightgray;
+    color: white;
+}
+.top {
+    padding-top: 800px;
+}
+.jumbotron {
+    background-image: url(Images/Global/header.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+}
+.display-3 {
+    font-weight: bold;
+}
+
+.lead {
+    font-weight: bold;
+}
+
+.container {
+    border-radius: 15px;
+    background-color: white;
+    color: darkslategrey;
+    padding: 20px;
+}
+
+.card-text {
+    color: black;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: lightgray;
+    padding-bottom: 10px;
+}
+
+.card-title {
+    color: black;
+}
+
+.row {
+    padding-bottom: 20px;
+}
+
+.content-header {
+    text-decoration: underline;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#social-media {
+    height: 50px;
+}
+
+.social-media-icon {
+    height: 30px;
+    padding-right: 10px;
+}
+
+.social-media-link {
+    float: left;
+}
+
+#social-media-header {
+    float: left;
+    padding-right: 10px;
+}
+
+.spacer {
+    padding-bottom: 15px;
+}
+
+.card-img-top {
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

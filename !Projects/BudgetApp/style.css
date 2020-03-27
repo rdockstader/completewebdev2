@@ -1,0 +1,97 @@
+img {
+    object-fit: cover;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+.sb-navbar {
+    background-color: limegreen;
+    font-weight: 900;
+    vertical-align: center;
+
+}
+.navbar-brand {
+    font-size: 200%;
+    vertical-align: center;
+    text-align: left;    
+}
+.header-image {
+    object-fit: cover;
+    background-size: cover;
+    max-height: 900px;
+    height: 900px;
+    width: auto;
+}
+#header-carousel {
+    margin-top: 70px;
+}
+.carousel-caption {
+    color: black;
+}
+.carousel-caption {
+    background-color: rgba(192,192,192, 0.4);
+    border-radius: 15px;
+    opacity: 50%;
+}
+.header-title {
+    font-size: 400%;
+}
+.header-info {
+    font-size: 200%;
+}
+.every-other {
+    background-color: rgba(220,220,220, 0.5);
+}
+.feature-div {
+    height: 400px;
+    font-size: 200%;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: center;
+}
+.feature-image-phones {
+    width: 670px;
+    height:
+}
+.feature-title {
+    font-size: 2005;
+    margin: 0;
+    padding: 0;
+}
+.feature-lead {
+    margin: 0;
+    padding: 0;
+    font-size: 60%;
+}
+.feature-text {
+    font-size: 70%;
+    padding-top: 30px;
+}
+.feature-text-container {
+    vertical-align: middle;
+    padding-top: 60px;
+    
+}
+#contact-div {
+    text-align: center;
+    widows: 400px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+footer {
+    height: 100px;
+    background-color: limegreen;
+    text-align: center;
+}
+#footer-logo-image {
+    height: 50px;
+}
+
+#footer-logo-div {
+    padding-top: 10px;
+}

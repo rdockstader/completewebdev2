@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    min-width: 900px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.main-header {
+    background-image: url(Images/Global/header-background.jpg);
+    width: auto;
+    height: 150px;
+    background-size: cover;
+    background-position: top;;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.main-header-div {
+    align-self: center;
+    font-size: 300%;
+    font-family: 'Baloo Bhaina', cursive;
+    color: aliceblue;
+    white-space: nowrap;   
+}
+
+.main-menu {
+    background-color: #919191;
+    display: flex;
+    justify-content: center;
+    height: 55px;
+}
+
+.main-menu-div {
+    align-self: center;
+    white-space: nowrap;
+}
+
+
+.main-menu-option {
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 150%;
+    border-right: solid white 4px;
+    color: white;
+}
+
+.last {
+    border: none;
+}
+
+.main-page {
+    background-image: url(Images/Global/header-background.jpg);
+    background-size: contain;
+    min-height: 1000px;
+        display: flex;
+    justify-content: center;
+}
+
+.main-page-div {
+    background-color: #e8dede;
+    min-height: inherit;
+    width: 900px;
+    align-self: center;
+}
+
+.main-footer {
+    background-color: black;
+    width: auto;
+    height: 150px;
+    background-size: cover;
+    background-position: bottom;;
+    display: flex;
+    justify-content: center;
+}
+
+.main-footer-div {
+    align-self: center;
+    color: #b1b1b1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contact-info-header {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+.social-media-icon {
+    height: 30px;
+    padding-right: 10px;
+}
+
+#social-media {
+   padding-right: 10px;
+}
+
+
+
+#home-header {
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 250%
+}
+
+#home-sub-header {
+    padding: 0;
+    margin: 0;
+    padding-top: px;
+    text-align: center;
+    font-size: 150%;
+}

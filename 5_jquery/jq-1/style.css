@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.shape {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.green-circle {
+    background-color: green;
+    border-radius: 50%;
+}
+.red-square {
+    background-color: red;
+}
+.blue-circle {
+    background-color: blue;
+    border-radius: 50%;
+    display: none;
+}
+.purple-square {
+    background-color: purple;
+}
+.clear-float {
+    clear: both;
+}

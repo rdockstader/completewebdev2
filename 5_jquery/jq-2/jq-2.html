@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <title>jquery-2</title>
+        <script src="jquery.min.js"></script>
+        <style type="text/css">
+            #circle {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                background-color: green; 
+            }
+        </style>
+    </head>
+    <body>
+        <p id="text">This is some text!</p>
+        <p id="shown">This is already shown</p>
+        <p id="hidden" style="display: none;">This isn't shown</p>
+        <button id="toggle">Toggle Text</button>
+        <div id="circle"></div>
+        
+        
+        
+        <script>
+            $("#toggle").click( function() {
+                $("#text").toggle();
+                if($("#shown").css("display") == "none") {
+                    $("#shown").fadeIn();
+                } else {
+                    $("#shown").fadeOut();
+                }
+                if($("#hidden").css("display") == "none") {
+                    $("#hidden").fadeIn();
+                } else {
+                    $("#hidden").fadeOut();
+                }
+            });
+            $("#circle").click( function() {
+                $(this).animate({width:"400px", height:"400px", marginTop:"100px;", marginLeft:"100px"}, 2000, function() {$(this).css("background-color", "red")});
+                
+            })
+        </script>
+    </body>
+</html>

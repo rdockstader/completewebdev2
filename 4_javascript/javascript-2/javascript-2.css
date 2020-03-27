@@ -1,0 +1,20 @@
+body {
+    padding: 0;
+    margin: o;
+}
+.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+#green-circle {
+    background-color: green;
+}
+#red-circle {
+    background-color: red;
+}
+#blue-circle {
+    background-color: blue;
+}

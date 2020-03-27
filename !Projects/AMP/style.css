@@ -1,0 +1,72 @@
+img {
+    object-fit: cover;
+}
+body {
+    background-color: aliceblue;
+    text-align: center;
+    color: #4b5360;
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Shadows Into Light', cursive;*/
+    /*font-family: 'Amatic SC', cursive;*/
+}
+.navbar {
+    background-color: coral;
+}
+#main-brand {
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 200%
+}
+.header-image{
+  width: auto;
+  height: 800px;
+  max-height: 800px;
+  object-fit: cover;
+}
+.carousel-item {
+    object-fit: cover;
+}
+.panel-image {
+    width: auto;
+    height: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.medium-panel-image{
+    border-radius: 20px;
+}
+#header-carousel {
+    margin-top: 70px;
+}
+#panel-one {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.align-right {
+    text-align: right;
+}
+#contact-me {
+    border: none;
+    background-color: white;
+    color: coral;
+}
+.grey-background-prev {
+    background-color: grey;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.grey-background-next {
+    background-color: grey;
+        border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#contact-form-panel {
+    width: 400px;
+}
+#contact-form {
+    margin-bottom: 100px;
+}
+#contact-submit {
+    background-color: coral;
+}
